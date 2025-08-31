@@ -12,10 +12,10 @@ def guess_number():
     if player_number < a:
         print("Ваше число меньше того, что загадано")
         guess_number()
-    if player_number > a:
+    elif player_number > a:
         print("Ваше число больше того, что загадано")
         guess_number()
-    if player_number == a:
+    elif player_number == a:
         print("Отличная интуиция! Вы угадали число:)")
 
 
